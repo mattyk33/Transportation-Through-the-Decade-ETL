@@ -22,7 +22,6 @@ One dataset was used from the public platform Kaggle. This dataset, US Monthly T
 
 The full dataset for US Monthly Transportation Statistics can be found here: https://www.kaggle.com/thaddeussegura/us-monthly-transportation-statistics
 
-![CSV](Images/Highway_Vehicle_Miles_Traveled_MID.png)
 
 Transformation
 
@@ -46,7 +45,6 @@ For the Passenger Rail CSV, we had an extra step of deleting the Passenger Rail 
 
 We also decided to split the US Air CSV into two smaller tables, one that included only Air Traffic information, and another that only included Air Carrier Cargo information. For each of those two smaller tables, we followed the above bullet points for cleaning.
 
-![CSV](Images/FullTable.PNG)
 
 Load 
 
