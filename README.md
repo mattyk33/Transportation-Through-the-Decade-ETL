@@ -22,6 +22,7 @@ One dataset was used from the public platform Kaggle. This dataset, US Monthly T
 
 The full dataset for US Monthly Transportation Statistics can be found here: https://www.kaggle.com/thaddeussegura/us-monthly-transportation-statistics
 
+![CSV](Images/FullTable.PNG)
 
 Transformation
 
@@ -45,9 +46,12 @@ For the Passenger Rail CSV, we had an extra step of deleting the Passenger Rail 
 
 We also decided to split the US Air CSV into two smaller tables, one that included only Air Traffic information, and another that only included Air Carrier Cargo information. For each of those two smaller tables, we followed the above bullet points for cleaning.
 
+![CSV](Images/FullTable.PNG)
 
 Load 
 
 We started the loading process by setting up our Postgres database. With the help of https://app.quickdatabasediagrams.com/, we created a table schema that was then exported to pgAdmin. All six of the tables that were created had the same primary key of “Date”. Since Transportation Employment had the most rows, the rest of the tables “Date” columns were foreign keys in relation to primary key “Date” in transportation_employment table. 
 
 The next part in the loading process was connecting to the Postgres database from our jupyter notebook. Before our transformed DataFrames could be loaded, the column headers were made lower case to match our tables in pgAdmin. A sample query was then run to confirm the data was added successfully. 
+
+![CSV](Images/FullTable.PNG)
