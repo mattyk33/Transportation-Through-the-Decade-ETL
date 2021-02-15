@@ -22,7 +22,7 @@ One dataset was used from the public platform Kaggle. This dataset, US Monthly T
 
 The full dataset for US Monthly Transportation Statistics can be found here: https://www.kaggle.com/thaddeussegura/us-monthly-transportation-statistics
 
-![CSV](Images/FullTable.PNG)
+![CSV](Images/Highway Vehicle Miles Traveled MID.png)
 
 Transformation
 
@@ -54,4 +54,4 @@ We started the loading process by setting up our Postgres database. With the hel
 
 The next part in the loading process was connecting to the Postgres database from our jupyter notebook. Before our transformed DataFrames could be loaded, the column headers were made lower case to match our tables in pgAdmin. A sample query was then run to confirm the data was added successfully. 
 
-![CSV](Images/FullTable.PNG)
+![ERD](Images/ERD.PNG)
