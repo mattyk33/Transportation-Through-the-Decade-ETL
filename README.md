@@ -22,7 +22,7 @@ One dataset was used from the public platform Kaggle. This dataset, US Monthly T
 
 The full dataset for US Monthly Transportation Statistics can be found here: https://www.kaggle.com/thaddeussegura/us-monthly-transportation-statistics
 
-![CSV](Images/HighwayVehicleMilesTraveledMID.png)
+![CSV](Images/Highway_Vehicle_Miles_Traveled_MID.png)
 
 Transformation
 
